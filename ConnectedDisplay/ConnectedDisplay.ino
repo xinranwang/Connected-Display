@@ -8,12 +8,6 @@
 #include <Wire.h>
 #include "Adafruit_LEDBackpack.h"
 #include "Adafruit_GFX.h"
- 
-#define DIGITAL_OUT_PIN    2
-#define DIGITAL_IN_PIN     A4
-#define PWM_PIN            3
-#define SERVO_PIN          5
-#define ANALOG_IN_PIN      A5
 
 Adafruit_8x8matrix matrix = Adafruit_8x8matrix();
 String str;
