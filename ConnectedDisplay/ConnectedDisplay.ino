@@ -39,22 +39,11 @@ void setup()
   
 //  // Enable serial debug
   Serial.begin(57600);
-//  
-//  pinMode(DIGITAL_OUT_PIN, OUTPUT);
-//  pinMode(DIGITAL_IN_PIN, INPUT);
-//  
-//  // Default to internally pull high, change it if you need
-//  digitalWrite(DIGITAL_IN_PIN, HIGH);
-//  //digitalWrite(DIGITAL_IN_PIN, LOW);
-//  
-//  myservo.attach(SERVO_PIN);
+
   matrix.clear();
 }
 
-void loop()
-{
-//  static boolean analog_enabled = false;
-//  static byte old_state = LOW;
+void loop() {
 
   matrix.clear();
   matrix.setTextSize(1);
